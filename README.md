@@ -1,4 +1,3 @@
-
 Bootstrap Prototype Boilerplate
 ============================
 This repo can be forked to create quick HTML prototypes using [Twitter Bootstrap](http://twitter.github.com/bootstrap/). It uses [Ant](http://ant.apache.org/) to compile the [CoffeeScript](http://coffeescript.org/) and [Less CSS](http://lesscss.org/) files down to minified and combined files.
@@ -13,7 +12,7 @@ Installation
 1. You will need to install [NodeJS](http://nodejs.org/) for the build tools to work properly.
 2. Install [POW](http://pow.cx/) (run `curl get.pow.cx | sh`) and symlink the root directory of your app:
  - `cd ~/.pow`
- - `ls -s /path/to/myapp`
+ - `ln -s /path/to/myapp`
  - Go to http://myapp.dev (or whatever you named the symlink)
 3. Update the first line (`path.root`) of /tools/build.properties to include the path of your app.
 4. Make the build script executable by running the following command from the root of your app:
